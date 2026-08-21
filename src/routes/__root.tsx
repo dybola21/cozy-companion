@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "SiteCompleto | Sites Profissionais de Alta Conversão" },
+      { name: "description", content: "Criamos e vendemos sites completos, prontos para o seu negócio. Design premium e SEO de elite." },
+      { name: "author", content: "SiteCompleto" },
+      { property: "og:title", content: "SiteCompleto | Sites Profissionais" },
+      { property: "og:description", content: "Sua presença online começa aqui com sites profissionais prontos para lucrar." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@SiteCompleto" },
     ],
     links: [
       {
